@@ -1,0 +1,46 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.todo {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
